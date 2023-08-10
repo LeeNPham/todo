@@ -20,6 +20,7 @@ export default async (req, res) => {
 		}
 	}
 
+	//retrieve task
 	if (method === "GET") {
 		try {
 			const tasks = await Task.find();
