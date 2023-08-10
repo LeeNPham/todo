@@ -29,4 +29,24 @@ export default async (req, res) => {
 			console.log(error);
 		}
 	}
+
+	// if (method === "PUT") {
+	//	 try {
+	// 		const tasks = await Task.update();
+	// 		res.status(200).json({ data: tasks });
+	// 	 } catch (error) {
+	// 		res.status(500).json({ message: "Internal Server Error" });
+	// 		console.log(error);
+	// }
+	// }
+
+	// if (method === "DELETE") {
+	// 	try {
+	// 		const tasks = await Task.delete();
+	// 		res.status(200).json({ data: tasks });
+	// 	} catch (error) {
+	// 		res.status(500).json({ message: "Internal Server Error" });
+	// 		console.log(error);
+	// 	}
+	// }
 };

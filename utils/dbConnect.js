@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 const DB_URL = process.env.DB_URL;
+console.log('this should be my DB URL',DB_URL)
 
 if (!DB_URL) {
 	throw new Error(
@@ -8,7 +9,7 @@ if (!DB_URL) {
 	);
 }
 
-let cached = global.mongoose;
+let cached = global.mongoose; //saving global mongoose in a captured variable because we don't want to connect to the database repeatedly
 
 if (!cached) {
 	cached = global.mongoose = { conn: null, promise: null };
