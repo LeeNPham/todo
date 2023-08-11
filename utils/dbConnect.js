@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 const DB_URL = process.env.DB_URL;
 
+mongoose.set('strictQuery', true); //uppress the warning and keep the current behavior where strictQuery is true
 
 if (!DB_URL) {
 	throw new Error(
