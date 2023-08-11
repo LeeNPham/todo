@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const DB_URL = process.env.DB_URL;
-console.log('this should be my DB URL',DB_URL)
+
 
 if (!DB_URL) {
 	throw new Error(
