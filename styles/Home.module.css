@@ -5,7 +5,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #cb7cef;
+	background-color: #251f42;
 }
 
 .heading {
@@ -37,7 +37,7 @@
 	flex-grow: 1;
 	height: inherit;
 	outline: none;
-	border: 1px solid #cb7cef;
+	border: 1px solid #5a36f7;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	font-size: 16px;
@@ -53,7 +53,7 @@
 	cursor: pointer;
 	outline: none;
 	border: none;
-	background-color: #cb7cef;
+	background-color: #5a36f7;
 	color: white;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -65,7 +65,7 @@
 	padding: 5px;
 	margin: 5px 0;
 	border-radius: 5px;
-	border: 1px solid #cb7cef;
+	border: 1px solid #5a36f7;
 	box-sizing: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
 		rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
 	display: flex;
@@ -93,7 +93,7 @@
 	outline: none;
 	border: none;
 	background: transparent;
-	color: #cb7cef;
+	color: #5a36f7;
 	font-size: 16px;
 	cursor: pointer;
 	padding: 0 5px;
