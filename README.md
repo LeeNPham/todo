@@ -6,6 +6,8 @@ First, run the development server:
 
 Make sure to also instantiate a mongodb connection string and save it to your env.local file to connect to an active db system
 
+Update the url const to your deployed sites url address so that the api can be referenced through the deployed platform per your project
+
 ```bash
 npm run dev
 # or
